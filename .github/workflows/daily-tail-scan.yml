@@ -2,7 +2,7 @@ name: Daily Tail Pattern Scanner
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # Every day at 2 PM UTC
+    - cron: '0 14 * * *'  # Every day at 2 PM UTC 
   workflow_dispatch:      # Allow manual trigger from GitHub UI
 
 jobs:
